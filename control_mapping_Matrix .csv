@@ -1,0 +1,11 @@
+# Framework Control Mapping Matrix
+
+| Control Area | NIST CSF 2.0 | SOC 2 Criteria | ISO 27001:2022 | Internal Requirement Summary |
+| :--- | :---: | :---: | :---: | :--- |
+| **MFA Enforcement** | PR.AA-01 | CC6.1 | A.5.16 / A.8.5 | Enforce TOTP/FIDO2 MFA across all corporate accounts and VPNs. |
+| **Data Encryption** | PR.DS-01 | CC6.6 | A.8.24 | Require AES-256 bit encryption for all database volumes and laptop hard drives. |
+| **Security Training** | PR.AT-01 | CC2.2 | A.6.3 | Mandatory employee onboarding security training + monthly phishing simulations. |
+| **Log Monitoring** | DE.CM-01 | CC7.2 | A.8.16 | Ingest endpoint and cloud audit logs into a central SIEM with 365-day retention. |
+| **Incident Response** | RS.MA-01 | CC7.3 | A.5.24 | Maintain documented IR plan and conduct annual tabletop breach exercises. |
+| **Access Reviews** | PR.AA-05 | CC6.2 | A.5.18 | Conduct manager reviews of database and administrative permissions quarterly. |
+
