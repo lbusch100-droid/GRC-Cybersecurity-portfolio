@@ -1,15 +1,22 @@
-  Framework Standard: NIST SP 800-61 Rev.2 
+# Enterprise Incident Response Plan
+**Document ID:** IRP-SEC-002
+**Version:** 1.0
+**Framework Alignment:** NIST SP 800-61 Rev. 2
 
-  Security Levels Defined:
-low: Isolated malware detection on a single non critical endpoint.
-Medium: Multible failed log in attempts on a care database or unauthorized account access.
-Critical: Active ransomware execution, domain controller compromise or data exfiltration.
+---
 
-  How to contain an active breach:
-Isolation: Isolate host from network via EDR software and disable network adapter.
-Containment: Revoke active session tokens and reset user password in active directory.
+## 1. Severity Definitions
+* **Low:** Isolated malware detection on a single non-critical endpoint, successfully quarantined by EDR.
+* **Medium:** Multiple failed administrative login attempts on internal database systems or suspected credential compromise.
+* **Critical:** Active ransomware execution, domain controller compromise, or unauthorized exfiltration of sensitive customer data.
 
-  How to eradicate threats: Remove malicious files, rebuild infected OS from golden image, and patch vulnerability.
-  How to recover: Restore database from clean backup, reenable system access in phased batches. 
+## 2. Containment Procedures
+* **Network Isolation:** Immediately isolate compromised hosts from the local network via central EDR console controls.
+* **Identity Revocation:** Revoke active SSO session tokens and reset passwords for impacted user accounts in Active Directory.
 
-Post incident review: A formal "lessons learned" meeting will occur within the next 3 business days of incident resolution.
+## 3. Eradication & Recovery
+* **Eradication:** Remove malicious artifacts, patch identified software vulnerabilities, and rebuild infected hosts from trusted gold images.
+* **Recovery:** Restore verified databases from clean backups, re-enable access in phased batches, and monitor SIEM logs for 72 hours.
+
+## 4. Post-Incident Activity
+A mandatory post-mortem review must be conducted within 5 business days of incident resolution to document root cause analysis and update detection rules.
