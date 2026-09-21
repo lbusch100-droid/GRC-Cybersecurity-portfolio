@@ -8,4 +8,4 @@
 | **RSK-04** | Outage of primary customer platform due to critical third-party vendor downtime. | 3 x 3 | **9 (Med)** | Require vendor SOC 2 Availability coverage and enforce 99.9% uptime SLA contracts. | 2 x 3 | **6 (Low)** | GRC Lead |
 
 ---
-[⬅️ Back to README](<./01_README.md>)
+[⬅️ Back to README](<./README.md>)
