@@ -19,3 +19,6 @@ A third-party security evaluation was conducted on SaaS Cloud Solutions, Inc. to
 ## 3. Identified Gaps & Recommendation
 * **Gap:** Vendor does not currently support SSO integration on their entry tier.
 * **Recommendation:** **Conditionally Approved.** Approval requires vendor commitment to mandate MFA for all administrator logins and enable SSO integration within 90 days.
+
+---
+[⬅️ Back to README](<./01_README.md>)
