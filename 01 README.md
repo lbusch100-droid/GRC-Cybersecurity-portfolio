@@ -25,7 +25,7 @@ Welcome! This repository serves as a hands-on portfolio demonstrating practical 
 * **Overview:** Authored an enterprise-wide Acceptable Use Policy covering hardware encryption (BitLocker/FileVault), mandatory FIDO2/TOTP Multi-Factor Authentication, passphrase standards, and device lock rules.
 * **Framework Alignment:** NIST CSF 2.0 (PR.AA-01, PR.DS-01) | ISO 27001 (A.5.16, A.8.24)
 
-### 2. [Enterprise Incident Response Plan](./Incident_Response_Plan.md)
+### 2. [Enterprise Incident Response Plan](./Incident Response Plan.md)
 * **Overview:** Developed an Incident Response Plan following NIST SP 800-61 Rev. 2 across four lifecycle phases, including severity triage rules, host network isolation steps, and post-mortem review timelines.
 * **Framework Alignment:** NIST CSF 2.0 (RS.MA-01) | SOC 2 (CC7.3)
 
