@@ -22,3 +22,6 @@
 1. Connecting unauthorized USB drives or personal storage media to corporate endpoints.
 2. Storing company sensitive data on unapproved personal cloud accounts (e.g., personal Google Drive or Dropbox).
 3. Disabling, altering, or uninstalling local endpoint detection and response (EDR) software.
+
+---
+[⬅️ Back to README](<./01_README.md>)
