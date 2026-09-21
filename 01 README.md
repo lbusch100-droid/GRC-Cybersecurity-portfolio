@@ -21,24 +21,24 @@ Welcome! This repository serves as a hands-on portfolio demonstrating practical 
 
 ## 📁 Portfolio Deliverables & Projects
 
-### 1. [Information Security & Acceptable Use Policy](./Acceptable_Use_Policy.md)
+### 1. [Information Security & Acceptable Use Policy](./02_Acceptable_Use_Policy.md)
 * **Overview:** Authored an enterprise-wide Acceptable Use Policy covering hardware encryption (BitLocker/FileVault), mandatory FIDO2/TOTP Multi-Factor Authentication, passphrase standards, and device lock rules.
 * **Framework Alignment:** NIST CSF 2.0 (PR.AA-01, PR.DS-01) | ISO 27001 (A.5.16, A.8.24)
 
-### 2. [Enterprise Incident Response Plan](./Enterprise_Incident_Response_Plan.md)
+### 2. [Enterprise Incident Response Plan](./03_Enterprise_Incident_Response_Plan.md)
 * **Overview:** Developed an Incident Response Plan following NIST SP 800-61 Rev. 2 across four lifecycle phases, including severity triage rules, host network isolation steps, and post-mortem review timelines.
 * **Framework Alignment:** NIST CSF 2.0 (RS.MA-01) | SOC 2 (CC7.3)
 
-### 3. [Corporate Risk Register & Dashboard](./Risk_Register.md)
+### 3. [Corporate Risk Register & Dashboard](./04_Risk_Register.md)
 * **Overview:** Conducted quantitative risk assessments on endpoint ransomware, cloud storage exposures, identity management, and vendor downtime scenarios. Built an automated 5x5 scoring register and visual risk-reduction chart.
 * **Framework Alignment:** NIST SP 800-30 Rev. 1 | NIST CSF 2.0 (ID.RA-01)
 
-### 4. [Framework Control Mapping Matrix](./Control_Mapping_Matrix.md)
+### 4. [Framework Control Mapping Matrix](./05_Control_Mapping_Matrix.md)
 * **Overview:** Constructed a cross-walk mapping matrix mapping internal corporate security requirements across NIST CSF 2.0, SOC 2 Trust Services Criteria, and ISO/IEC 27001:2022 controls.
 * **Framework Alignment:** NIST CSF 2.0 | SOC 2 CC-Series | ISO 27001 Annex A
 
 
-### 5. [Vendor Security Risk Evaluation (TPRM)](./Vendor_Risk_Evaluation.md)
+### 5. [Vendor Security Risk Evaluation (TPRM)](./06_Vendor_Risk_Evaluation.md)
 * **Overview:** Evaluated a third-party SaaS vendor's SOC 2 Type II audit report and CAIQ questionnaire, identified single sign-on gaps, and documented conditional approval requirements.
 * **Framework Alignment:** NIST CSF 2.0 (GV.SC-01) | SOC 2 (CC9.2)
 
