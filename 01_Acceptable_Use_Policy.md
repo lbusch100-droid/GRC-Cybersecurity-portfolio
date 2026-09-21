@@ -24,4 +24,4 @@
 3. Disabling, altering, or uninstalling local endpoint detection and response (EDR) software.
 
 ---
-[⬅️ Back to README](<./01_README.md>)
+[⬅️ Back to README](<./README.md>)
